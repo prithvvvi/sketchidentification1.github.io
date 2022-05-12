@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+h1{
+    color: black;
+    background-color: white;
+}
+#label{
+    color: white;
+}
+#accuracy{
+color: white;
+}
+#show_sketch{
+    float:right
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: colors;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes colors {
+    from,to{box-shadow:5px 5px 100px red;}
+    10%{box-shadow:5px 5px 100px orange;}
+    20%{box-shadow:5px 5px 100px yellow;}
+    30%{box-shadow:5px 5px 100px green;}
+    40%{box-shadow:5px 5px 100px blue;}
+    50%{box-shadow:5px 5px 100px purple;}
+    60%{box-shadow:5px 5px 100px pink;}
+}
+ p{
+     padding-top:10px;
+     font-size: 25px;
+ }
+
+ body
+ {
+     background-color: black;
+ }
